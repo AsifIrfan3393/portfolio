@@ -1,3 +1,4 @@
 2024-03-01T12:00:00 - chore: project init snapshot March 2024
 2024-03-18T12:00:00 - feat: add homepage layout
 2024-04-04T12:00:00 - chore: tweak hero spacing
+2024-04-20T12:00:00 - fix: responsive header
