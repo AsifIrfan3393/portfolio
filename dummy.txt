@@ -3,3 +3,4 @@
 2024-04-04T12:00:00 - chore: tweak hero spacing
 2024-04-20T12:00:00 - fix: responsive header
 2024-05-07T12:00:00 - style: theme adjustments
+2024-05-24T12:00:00 - docs: update README
