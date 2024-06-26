@@ -5,3 +5,4 @@
 2024-05-07T12:00:00 - style: theme adjustments
 2024-05-24T12:00:00 - docs: update README
 2024-06-10T12:00:00 - chore: add placeholder assets
+2024-06-26T12:00:00 - feat: add projects grid
