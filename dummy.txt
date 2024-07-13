@@ -6,3 +6,4 @@
 2024-05-24T12:00:00 - docs: update README
 2024-06-10T12:00:00 - chore: add placeholder assets
 2024-06-26T12:00:00 - feat: add projects grid
+2024-07-13T12:00:00 - perf: optimize images
