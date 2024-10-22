@@ -12,3 +12,4 @@
 2024-09-01T12:00:00 - feat: add contact form
 2024-09-18T12:00:00 - test: add form validation tests
 2024-10-05T12:00:00 - fix: CSS overlap issue
+2024-10-22T12:00:00 - refactor: nav component
