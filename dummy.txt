@@ -17,3 +17,4 @@
 2024-11-24T12:00:00 - feat: add blog page layout
 2024-12-11T12:00:00 - style: typography polish
 2024-12-28T12:00:00 - docs: add deployment notes
+2025-01-13T12:00:00 - chore: remove unused files
