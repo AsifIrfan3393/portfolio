@@ -19,3 +19,4 @@
 2024-12-28T12:00:00 - docs: add deployment notes
 2025-01-13T12:00:00 - chore: remove unused files
 2025-01-30T12:00:00 - feat: add animations
+2025-02-16T12:00:00 - fix: footer alignment
