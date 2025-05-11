@@ -24,3 +24,4 @@
 2025-03-21T12:00:00 - feat: add portfolio item template
 2025-04-07T12:00:00 - perf: lazyload images
 2025-04-24T12:00:00 - fix: contrast accessibility
+2025-05-11T12:00:00 - chore: add build script
