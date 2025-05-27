@@ -25,3 +25,4 @@
 2025-04-07T12:00:00 - perf: lazyload images
 2025-04-24T12:00:00 - fix: contrast accessibility
 2025-05-11T12:00:00 - chore: add build script
+2025-05-27T12:00:00 - feat: add contact email link
