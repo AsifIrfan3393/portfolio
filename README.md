@@ -1,6 +1,11 @@
 # 👋 Asif Irfan — Portfolio
 
 [![status](https://img.shields.io/badge/status-active-success?style=for-the-badge)]()
+## 🌐 Live Portfolio
+
+🚀 Check out my deployed portfolio here:  
+[![Portfolio](https://img.shields.io/badge/Visit_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://asifirfanportfolio.vercel.app/)
+
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)]()
 [![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)]()
 [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)]()
