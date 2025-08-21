@@ -33,9 +33,9 @@ I have strong experience in **MERN stack**, building **RESTful APIs**, and solvi
 - Contact form using EmailJS or serverless API
 
 ---
-```bash
-## 🗂️ Project / Folder structure
 
+## 🗂️ Project / Folder structure
+```bash
 PORTFOLIO-MAIN/
 ├─ .next/
 ├─ .vscode/
