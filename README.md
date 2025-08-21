@@ -62,13 +62,14 @@ PORTFOLIO-MAIN/
 └─ tsconfig.json
 ```
 
-> **Folder notes**
+## 🗂️Folder notes
+```bash
 > - `public/` → static assets (images, svgs, fonts).  
 > - `components/` → reusable UI components.  
 > - `app/` → Next.js app routes / pages.  
 > - `data/` → project data, skills, constants.  
 > - `lib/` → utilities, API clients, helpers.
-
+```
 ---
 
 ## 💻 How to run locally
