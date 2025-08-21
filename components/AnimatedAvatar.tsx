@@ -5,7 +5,8 @@ import { motion, useMotionValue, useTransform, useReducedMotion } from "framer-m
 type Props = {
   src?: string;
   alt?: string;
-  size?: number; // px
+  size?: number; 
+  square:false// px
 };
 
 export default function AnimatedAvatar({ src = "/ai.png", alt = "Asif Irfan", size = 180 }: Props) {

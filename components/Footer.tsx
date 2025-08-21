@@ -1,20 +1,19 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
-import { socialMedia } from "@/data";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { contact } from "@/data";   // ✅ use contact
 import MagicButton from "./MagicButton";
 
-const ensureUrl = (u) => {
+const ensureUrl = (u: string | undefined): string => {
   if (!u) return "#";
   return u.startsWith("http://") || u.startsWith("https://") ? u : `https://${u}`;
 };
 
 const Footer = () => {
-  const email = socialMedia?.email ?? "asifi.it.23@nitj.ac.in";
-  const linkedin = ensureUrl(socialMedia?.linkedin ?? "linkedin.com");
-  const github = ensureUrl(socialMedia?.github ?? "github.com");
+  const email = contact?.email ?? "asifi.it.23@nitj.ac.in";
+  const linkedin = ensureUrl(contact?.linkedin ?? "linkedin.com");
+  const github = ensureUrl(contact?.github ?? "github.com");
 
-  const openLink = (e, url) => {
-    // prevent default so we can safe-open (avoids issues with some JS/CSS overlays)
+  const openLink = (e: React.MouseEvent, url: string) => {
     e.preventDefault();
     if (typeof window !== "undefined") {
       window.open(url, "_blank", "noopener,noreferrer");
@@ -23,7 +22,6 @@ const Footer = () => {
 
   return (
     <footer className="w-full pt-20 pb-10 relative" id="contact">
-      {/* background grid: pointer-events-none so it doesn't block clicks */}
       <div className="w-full absolute left-0 -bottom-72 min-h-96 pointer-events-none">
         <img
           src="/footer-grid.svg"
@@ -32,11 +30,8 @@ const Footer = () => {
         />
       </div>
 
-      {/* content */}
       <div className="flex flex-col items-center relative z-10">
-        <p className="text-white-200 md:mt-10 my-5 text-center">
-          {/* optional footer text */}
-        </p>
+        <p className="text-white-200 md:mt-10 my-5 text-center"></p>
       </div>
 
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center relative z-20">
@@ -44,17 +39,13 @@ const Footer = () => {
           Copyright © Asif Irfan
         </p>
 
-        {/* social icons */}
         <div className="flex items-center gap-4 mt-6 md:mt-0">
-          
           <a
             href={linkedin}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="LinkedIn profile"
-            title="LinkedIn"
-            className="inline-flex items-center justify-center p-3 rounded-full text-white hover:bg-white/10 transition-transform transform hover:-translate-y-0.5 cursor-pointer"
             onClick={(e) => openLink(e, linkedin)}
+            className="inline-flex items-center justify-center p-3 rounded-full text-white hover:bg-white/10 transition-transform transform hover:-translate-y-0.5 cursor-pointer"
           >
             <FaLinkedin size={32} />
           </a>
@@ -63,10 +54,8 @@ const Footer = () => {
             href={github}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="GitHub profile"
-            title="GitHub"
-            className="inline-flex items-center justify-center p-3 rounded-full text-white hover:bg-white/10 transition-transform transform hover:-translate-y-0.5 cursor-pointer"
             onClick={(e) => openLink(e, github)}
+            className="inline-flex items-center justify-center p-3 rounded-full text-white hover:bg-white/10 transition-transform transform hover:-translate-y-0.5 cursor-pointer"
           >
             <FaGithub size={32} />
           </a>
