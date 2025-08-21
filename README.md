@@ -62,3 +62,38 @@ PORTFOLIO-MAIN/
 └─ tsconfig.json
 ```
 
+> **Folder notes**
+> - `public/` → static assets (images, svgs, fonts).  
+> - `components/` → reusable UI components.  
+> - `app/` → Next.js app routes / pages.  
+> - `data/` → project data, skills, constants.  
+> - `lib/` → utilities, API clients, helpers.
+
+---
+
+## 💻 How to run locally
+
+```bash
+# clone
+git clone https://github.com/AsifIrfan3393/<your-repo>.git
+cd <your-repo>
+
+# install
+npm install
+
+# dev
+npm run dev
+
+# production
+npm run build
+npm start
+
+
+## 📬 Contact
+
+- ✉️ **Email:** [asifi.it.23@nitj.ac.in](mailto:asifi.it.23@nitj.ac.in) ↗  
+- 📞 **Phone:** [+91 7050787307](tel:+917050787307) ↗  
+- 🔗 **LinkedIn:** [https://linkedin.com/in/asif-irfan-060249373](https://linkedin.com/in/asif-irfan-060249373) ↗  
+- 🐙 **GitHub:** [https://github.com/AsifIrfan3393](https://github.com/AsifIrfan3393) ↗
+
+
