@@ -41,5 +41,30 @@ I’m an IT student at **Dr B.R. Ambedkar National Institute of Technology** wit
 
 ## 🗂️ Project / Folder structure
 
-This mirrors your project screenshot:
+This mirrors your project screenshot:PORTFOLIO-MAIN/
+├─ .next/
+├─ .vscode/
+├─ app/
+├─ components/
+├─ data/
+├─ lib/
+├─ node_modules/
+├─ public/
+├─ .env.local
+├─ .eslintrc.json
+├─ .gitignore
+├─ components.json
+├─ dummy.txt
+├─ next-env.d.ts
+├─ next.config.mjs
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.js
+├─ sentry.client.config.ts
+├─ sentry.edge.config.ts
+├─ sentry.server.config.ts
+├─ tailwind.config.ts
+
+---
+└─ tsconfig.json
 
