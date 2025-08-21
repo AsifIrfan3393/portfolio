@@ -65,6 +65,5 @@ This mirrors your project screenshot:PORTFOLIO-MAIN/
 ├─ sentry.server.config.ts
 ├─ tailwind.config.ts
 
----
 └─ tsconfig.json
 
