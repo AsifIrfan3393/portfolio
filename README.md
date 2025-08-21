@@ -88,7 +88,7 @@ npm run dev
 npm run build
 npm start
 
-
+---
 ## 📬 Contact
 
 - ✉️ **Email:** [asifi.it.23@nitj.ac.in](mailto:asifi.it.23@nitj.ac.in) ↗  
@@ -96,4 +96,4 @@ npm start
 - 🔗 **LinkedIn:** [https://linkedin.com/in/asif-irfan-060249373](https://linkedin.com/in/asif-irfan-060249373) ↗  
 - 🐙 **GitHub:** [https://github.com/AsifIrfan3393](https://github.com/AsifIrfan3393) ↗
 
-
+---
