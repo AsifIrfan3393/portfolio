@@ -26,10 +26,11 @@ export default function AnimatedAvatar({ src = "/ai.png", alt = "Asif Irfan", si
     if (!el || shouldReduce) return;
 
     function handleMove(e: MouseEvent) {
-      const r = el.getBoundingClientRect();
-      px.set(Math.max(0, Math.min(size, e.clientX - r.left)));
-      py.set(Math.max(0, Math.min(size, e.clientY - r.top)));
-    }
+  const r = el!.getBoundingClientRect();
+  px.set(Math.max(0, Math.min(size, e.clientX - r.left)));
+  py.set(Math.max(0, Math.min(size, e.clientY - r.top)));
+}
+
     function handleLeave() {
       // reset to center
       px.set(size / 2);
